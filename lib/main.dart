@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
           bodyLarge: TextStyle(fontSize: 16, color: Colors.white),
         ),
       ),
-      initialRoute: '/smartbite-home',
+      initialRoute: '/',
       routes: {
         '/': (context) => const WelcomeScreen(),
         '/signup': (context) => const SignUpScreen(),
